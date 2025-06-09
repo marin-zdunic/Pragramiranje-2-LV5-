@@ -1,7 +1,11 @@
 # Pragramiranje-2-LV5-
 
 1. Zad
-   int broj;
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   int main(){
+      int broj;
     do{
         printf("Unesi troznamenkasti broj: ");
         scanf("%d", &broj);
@@ -22,9 +26,15 @@
 
     printf("Najveca znamenka: %d ", max);
     printf("\nUmnozak preostale dvije: %d ", umnozak);
+   }
+   
 
-2. Zad
-   int n, broj, brojac = 0;
+3. Zad
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   int main(){
+      int n, broj, brojac = 0;
 
     do{
         printf("Unesi broj: ");
@@ -40,3 +50,36 @@
     }
 
     printf("\nUkupno brojeva djeljivih sa 7 i vecih od 15: %d", brojac);
+   }
+   
+
+5. Zad
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   int main(){
+      char a, b;
+
+    printf("Unesi prvi znak: ");
+    scanf(" %c", &a);
+    printf("Unesi drugi znak: ");
+    scanf(" %c", &b);
+
+    if(a < b){
+        for(int i = a+1; i < b; i++){
+            printf("%c ", i);
+        }
+    }else if(a > b){
+        for(int i = a-1; i > b; i--){
+            printf("%c ", i);
+        }
+    }else{
+        printf("Ista slova!");
+    }
+   }
+
+6. Zad
+   
+   
+   
+   
