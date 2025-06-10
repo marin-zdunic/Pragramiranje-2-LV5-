@@ -1,4 +1,4 @@
-# Pragramiranje-2-LV5-
+# Programiranje-2-LV5-
 
 a)
 1. Zad
